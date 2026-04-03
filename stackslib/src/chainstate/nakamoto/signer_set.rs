@@ -1339,7 +1339,7 @@ impl NakamotoSigners {
                 } => {
                     totaled_entries.push((
                         pox_addr.clone(),
-                        signer_key.clone(),
+                        *signer_key,
                         w_i,
                         entry.entry.amount_ustx,
                     ));
@@ -1401,7 +1401,7 @@ impl NakamotoSigners {
             let amount_ustx_scaled = Uint256::from_u128(*amount_ustx) * signer_weight_scaling;
             let signer_weight = amount_ustx_scaled / total_ustx_locked_256;
             signers.push(NakamotoSignerEntry {
-                signing_key: (*signer).clone(),
+                signing_key: *signer,
                 stacked_amt: *amount_ustx,
                 weight: signer_weight.low_u32(),
             });

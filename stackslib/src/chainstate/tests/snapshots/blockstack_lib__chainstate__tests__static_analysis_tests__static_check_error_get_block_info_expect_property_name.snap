@@ -1,11 +1,10 @@
 ---
 source: stackslib/src/chainstate/tests/static_analysis_tests.rs
 expression: result
-snapshot_kind: text
 ---
 [
   Success(ExpectedBlockOutput(
-    marf_hash: "2f444ccc381e02db1304d80630bbf8126476fbd720ef98a0119bdfddc85d5a5b",
+    marf_hash: "8bc52a94c9410674b4a99dcf47f2d92d82b7ff178ab524eafd26809ba49233c8",
     evaluated_epoch: Epoch33,
     transactions: [
       ExpectedTransactionOutput(
@@ -35,7 +34,7 @@ snapshot_kind: text
     ),
   )),
   Success(ExpectedBlockOutput(
-    marf_hash: "82aa6137d83eb587ee7756f49aa972808ae4664e04014960dc5d324739c9dadf",
+    marf_hash: "d5e563714fdaaaa463c43e0f4a085ab2d51f40fc8e96d3f8f04fa42b63b2ae78",
     evaluated_epoch: Epoch33,
     transactions: [
       ExpectedTransactionOutput(
@@ -65,7 +64,7 @@ snapshot_kind: text
     ),
   )),
   Success(ExpectedBlockOutput(
-    marf_hash: "7da30a9c058733ffeab08787985eec2970de5a97bf3a7484ae3c27eab33a0e38",
+    marf_hash: "4d1e960bced87244312cdbcbc50b979259289d862a2c2e2c698a98fcfc370b62",
     evaluated_epoch: Epoch34,
     transactions: [
       ExpectedTransactionOutput(
@@ -95,7 +94,7 @@ snapshot_kind: text
     ),
   )),
   Success(ExpectedBlockOutput(
-    marf_hash: "b88fb1edb800395b57bce7a55aa10154ef0f20a35a3630704a78f86acf4e1ab5",
+    marf_hash: "4f1513d8720037198ca328b0363c5444d14ea5c43a7257769a701e1c717be905",
     evaluated_epoch: Epoch34,
     transactions: [
       ExpectedTransactionOutput(
@@ -125,7 +124,7 @@ snapshot_kind: text
     ),
   )),
   Success(ExpectedBlockOutput(
-    marf_hash: "36028ed8c6c24c6c0004caeab1daf9f5580975f27cf9aaa6ee1a46ceb207e34c",
+    marf_hash: "89b573cd6c1b2d28c5b855f01a2f149aac50e8185250769fd2826ca7f5b8d080",
     evaluated_epoch: Epoch35,
     transactions: [
       ExpectedTransactionOutput(
@@ -155,7 +154,7 @@ snapshot_kind: text
     ),
   )),
   Success(ExpectedBlockOutput(
-    marf_hash: "42b9446f59aa388d17774e785e36609c2c0f352602b3f28c218a716ff29c10be",
+    marf_hash: "7c42d81a59cd6c8b9702814e50c48d04b0984234a3c0141c0cf01ecf5fec0558",
     evaluated_epoch: Epoch35,
     transactions: [
       ExpectedTransactionOutput(
